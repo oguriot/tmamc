@@ -38,9 +38,14 @@ IP: XX.YY.XXX.X
    - fakenews@mikejagger.eu:  660K
 
 5/ Taille globale du dossier de site: 752M
+
 6/ Taille totale du dossier du compte Cpanel: 1,7G
+
 7/ Nombre de bases de données: 1
+
 8/ Tailles de la ou des bases:
+
    - mikejagger_WP:   12M
+   
 -------------------------------
 
