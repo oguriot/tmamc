@@ -22,6 +22,7 @@ RAM: 4.8G
 IP: XX.YY.XXX.X
 
 ###############################
+
 1/ Compte Cpanel: mikejagger
 
 2/ Domaine: mikejagger.eu
