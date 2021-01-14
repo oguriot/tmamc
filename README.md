@@ -23,8 +23,11 @@ IP: XX.YY.XXX.X
 
 ###############################
 1/ Compte Cpanel: mikejagger
+
 2/ Domaine: mikejagger.eu
+
 3/ Nombre de boîte mail: 06
+
 4/ Tailles des boîtes emails:
    - monge@mikejagger.eu:  188K
    - mng@mikejagger.eu:  240K
