@@ -8,19 +8,19 @@ it was written for French user, but could quickly re-written to output results i
 
 Usages:
 
-1/ /bin/bash tmamc EN   # get result in english
-2/ /bin/bash tmamc en   # get result in english
-3/ /bin/bash tmamc FR   # get result in french
-4/ /bin/bash tmamc fr   # get result in french
+1/ /bin/bash tmamc EN   # get result in english  
+2/ /bin/bash tmamc en   # get result in english  
+3/ /bin/bash tmamc FR   # get result in french  
+4/ /bin/bash tmamc fr   # get result in french  
 
 
 Sample output:
 
 ############ Serveur ########## 
-Nom: my.server.com 
-Disque: 356G 
-RAM: 4.8G 
-IP: XX.YY.XXX.X 
+Nom: my.server.com
+Disque: 356G
+RAM: 4.8G
+IP: XX.YY.XXX.X
 ###############################
 1/ Compte Cpanel: mikejagger
 2/ Domaine: mikejagger.eu
