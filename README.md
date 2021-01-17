@@ -16,12 +16,12 @@ Usages:
 
 Sample output:
 
-############ Serveur ########## 
-Nom: my.server.com
-Disque: 356G
-RAM: 4.8G
-IP: XX.YY.XXX.X
-###############################
+############ Serveur ##########   
+Nom: my.server.com  
+Disque: 356G  
+RAM: 4.8G  
+IP: XX.YY.XXX.X  
+###############################  
 1/ Compte Cpanel: mikejagger
 2/ Domaine: mikejagger.eu
 3/ Nombre de boîte mail: 06
