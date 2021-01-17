@@ -6,7 +6,12 @@ Author: ANDRIAMILAMINA Monge (overwatch@confluenti.com)
 Is a script to run on your cPanel enabled server to get all the statistics about all accounts, domain name, email, databases.
 it was written for French user, but could quickly re-written to output results in english or other languages.
 
-Usage: /bin/bash tmamc
+Usages:
+
+1/ /bin/bash tmamc EN   # get result in english
+2/ /bin/bash tmamc en   # get result in english
+3/ /bin/bash tmamc FR   # get result in french
+4/ /bin/bash tmamc fr   # get result in french
 
 
 Sample output:
