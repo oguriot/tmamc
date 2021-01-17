@@ -17,23 +17,14 @@ Usages:
 Sample output:
 
 ############ Serveur ##########
-
 Nom: my.server.com
-
 Disque: 356G
-
 RAM: 4.8G
-
 IP: XX.YY.XXX.X
-
 ###############################
-
 1/ Compte Cpanel: mikejagger
-
 2/ Domaine: mikejagger.eu
-
 3/ Nombre de boîte mail: 06
-
 4/ Tailles des boîtes emails:
    - monge@mikejagger.eu:  188K
    - mng@mikejagger.eu:  240K
@@ -43,14 +34,9 @@ IP: XX.YY.XXX.X
    - fakenews@mikejagger.eu:  660K
 
 5/ Taille globale du dossier de site: 752M
-
 6/ Taille totale du dossier du compte Cpanel: 1,7G
-
 7/ Nombre de bases de données: 1
-
 8/ Tailles de la ou des bases:
-
    - mikejagger_WP:   12M
    
 -------------------------------
-
