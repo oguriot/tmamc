@@ -4,7 +4,6 @@ Tell me about my cPanel Server
 Author: ANDRIAMILAMINA Monge (overwatch@confluenti.com)
 
 Is a script to run on your cPanel enabled server to get all the statistics about all accounts, domain name, email, databases.
-it was written for French user, but could quickly re-written to output results in english or other languages.
 
 Usages:
 
