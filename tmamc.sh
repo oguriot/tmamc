@@ -75,7 +75,29 @@ cat /etc/userdomains | sed 's/://g'| column -t | while read VDOMAIN VUSER;
 do
 	if [[ ! -d /home/$VUSER/mail/$VDOMAIN ]]
 	then
-		:
+		echo "1/ $S_STRING_5: $VUSER"
+		echo "2/ $S_STRING_6: $VDOMAIN"
+		echo "3/ $S_STRING_7: 0"
+		echo "4/ $S_STRING_8: 0Mo"		
+		echo "5/ $S_STRING_9: $(du -sh /home/$VUSER/public_html | awk '{print $1}')"
+		echo "6/ $S_STRING_10: $(du -sh /home/$VUSER | awk '{print $1}')"
+		ls -1 /var/lib/mysql | egrep $VUSER > /dev/null
+		if [ $? -eq 0 ]
+		then
+			echo "7/ $S_STRING_11: $(ls -1 /var/lib/mysql | egrep $VUSER | wc -l)"
+			echo "8/ $S_STRING_12:"
+			ls -1 /var/lib/mysql | egrep $VUSER | while read VBASE;
+			do
+				du -sh /var/lib/mysql/$VBASE | sort -h | awk '{print $2 "\t" $1}' | while read VPATHBDD VSIZEBDD;
+				do
+					VUSERDB=$(echo $VPATHBDD | awk -F/ '{print $NF}')
+					echo "   - $VUSERDB:   $VSIZEBDD"
+				done
+			done
+		else
+			echo "7/ $S_STRING_11: 0"
+		fi
+		echo "-------------------------------"
 	else
 		if [ "$(ls -A /home/$VUSER/mail/$VDOMAIN)" ]
 		then
@@ -110,8 +132,6 @@ do
 				echo "7/ $S_STRING_11: 0"
 			fi
 			echo "-------------------------------"
-		else
-			:
 		fi
 	fi
 done
